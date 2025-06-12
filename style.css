@@ -8,7 +8,7 @@
     div{
         background-color: antiquewhite;
         font-size: smaller;
-        
+
     }
 }
 
@@ -217,9 +217,21 @@ botton{
 .sixth{
     height: 500px;
     width: 1100px;
-    gap: 40px;
     margin-left: 50px;
-    box-shadow: 6% #1018280F;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 6% #101828;
+    justify-content: center;
+    align-items: center;
 }
 
 /*supporting*/
@@ -290,9 +302,107 @@ botton{
 
 
 #planonetime{
-    height: 800px;
+    height: 700px;
     gap: 32px;
     margin-top: 150px;
+    margin-bottom: 150px;
     display: flex;
     justify-content: center;
+}
+
+/*testimonials*/
+
+#testimonials{
+    height: 570px;
+    width: 1294px;
+    gap: 10px;
+    padding: 100px 80px 100px 80px;
+    margin-left: 30px;
+    margin-top: 100px;
+    background-color: #7F56D90F;
+}
+
+.eleventh{
+    height: 90px;
+    margin: 50px;
+}
+
+.twelveth{
+    height: 250px;
+    width: 1293px;
+    margin: 30px;
+}
+
+/*contact*/
+
+#contact{
+    height: 500px;
+    margin-top: 150px;
+    padding: 100px 80px 60px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.getintouch{
+    height: 130px;
+    width: 401px;
+    gap: 4px;
+    justify-content: center;
+}
+
+.thirtheen{
+    height: 423px;
+    width: 600px;
+    border-radius: 5px;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.CTA{
+    height: 400px;
+    padding: 100px 80px 100px 80px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+footer{
+    height: 375px;
+    padding: 60px 80px 60px 80px;
+    gap: 25px;
+    background-color: #1A1126;
+}
+
+.fourtheen{
+    height: 182px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 1100px;
+    border: 1px solid #ADADAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text{
+    height: 25px;
+    width: 300px;
+    margin-left: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
